@@ -34,7 +34,7 @@ export default function GenerateLink({ isOpen, onRequestClose }) {
 
         {/* Description */}
         <p className="text-[16px] font-[400] text-gray-700  mb-8">
-      Save this link for now. Once the app goes live, you can start sharing it with friends. Every person who joins using your link will be counted as your referral, and you’ll earn rewards such as sixer tickets or other prizes for each successful referral.
+      Save this link for now. Once the app goes live, you can start sharing it with friends. Every person who joins using your link will be counted as your referral, and you’ll earn rewards such as Philadelphia Team Tickets (Eagles or Sixers) or other prizes for each successful referral.
         </p>
 
         {/* Link Box */}
