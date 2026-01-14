@@ -73,76 +73,12 @@ const Navbar = () => {
           </div>
           <div className="flex justify-between lg:hidden">
                   <button onClick={toggle} className="ml-auto">
-              jdsd
+            
             </button>
           </div>
         </nav>
 
-        {/* Mobile menu */}
-        <div
-          className={`absolute h-screen right-0 top-0 z-50 w-60 max-w-sm lg:hidden overflow-hidden bg-gradient-to-br from-orange-50 via-white to-orange-50  text-white transition-all duration-700 ease-in-out ${
-            isOpen ? "translate-x-0" : "translate-x-60"
-          }`}
-        >
-          <div className="p-5 flex justify-between items-start w-full">
-            <ul className="flex flex-col space-y-4 py-5 uppercase">
-              <li
-                onClick={toggle}
-                className={`text-[13.89px] cursor-pointer font-[600] ${
-                  active === "home"
-                    ? "text-[#A3073F]  decoration-[#A3073F]"
-                    : ""
-                }`}
-              >
-                <Link href="#home" onClick={() => setActive("home")}>
-                  Home
-                </Link>
-              </li>
-              <li
-                onClick={toggle}
-                className={`text-[13.89px] cursor-pointer font-[600] ${
-                  active === "aboutus"
-                    ? "text-[#A3073F]  decoration-[#A3073F]"
-                    : ""
-                }`}
-              >
-                <Link href="#aboutus" onClick={() => setActive("aboutus")}>
-                  About Us
-                </Link>
-              </li>
-              <li
-                onClick={toggle}
-                className={`text-[13.89px] cursor-pointer font-[600] ${
-                  active === "howitswork"
-                    ? "text-[#A3073F]  decoration-[#A3073F]"
-                    : ""
-                }`}
-              >
-                <Link
-                  href="#howitswork"
-                  onClick={() => setActive("howitswork")}
-                >
-                  Why Choose Us
-                </Link>
-              </li>
-              <li
-                onClick={toggle}
-                className={`text-[13.89px] cursor-pointer font-[600] ${
-                  active === "contactus"
-                    ? "text-[#A3073F]  decoration-[#A3073F]"
-                    : ""
-                }`}
-              >
-                <Link href="#contactus" onClick={() => setActive("contactus")}>
-                  Contact Us
-                </Link>
-              </li>
-            </ul>
-            <button onClick={toggle} className="ml-auto">
-              jdsd
-            </button>
-          </div>
-        </div>
+
       </div>
     </div>
   );
