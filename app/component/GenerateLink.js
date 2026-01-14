@@ -4,7 +4,7 @@ import { useState } from "react";
 import Modal from "react-modal";
 export default function GenerateLink({ isOpen, onRequestClose }) {
     const [copied, setCopied] = useState(false);
-    const inviteLink = "https://www.topX.com/invite/alex-smith";
+    const inviteLink = "https://www.my-topx.com/invite/alex-smith";
 
     const handleCopy = () => {
       navigator.clipboard.writeText(inviteLink);
